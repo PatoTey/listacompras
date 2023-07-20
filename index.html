@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Lista de Compras</title>
+        <link rel="stylesheet" href="./index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+    </head>
+    <body>
+        <div class="shopping-container">
+            <img src="./imagenes/cat.png" alt="gato tierno sobre un carrito de compras"/>
+            <span id="alerta"></span>
+            <input class="shop-input rounded" type="text" id="input-field" placeholder="Ejemplo: 2kg Marraqueta">
+            <button class="shop-btn rounded" id="add-button">Añadir a la lista</button>
+        </div>
+        <h1 class="title centrado">Lista de Compras!</h1>
+        <small class="centrado">Doble click para <span  style="color:red">eliminar</span></small>
+        <span class="centrado" id="aviso"></span>
+        <span id="lista-vacia"></span>
+        <ul id="shop-list">
+        </ul>
+        <script src="./index.js" type="module"></script>
+    </body>
+</html>
